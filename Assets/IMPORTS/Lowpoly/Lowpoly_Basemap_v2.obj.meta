@@ -1,0 +1,131 @@
+fileFormatVersion: 2
+guid: 1a50557791e56404eafcf6186275d7f8
+timeCreated: 1529424369
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BASEMAP_V2_plat_CE
+    100002: BASEMAP_V2_plat_NE
+    100004: BASEMAP_V2_plat_NW
+    100006: BASEMAP_V2_plat_SE
+    100008: BASEMAP_V2_plat_SW
+    100010: BASEMAP_V2_plat_TRI
+    100012: //RootNode
+    100014: plat_Surrounding_BASEMAP_V2
+    400000: BASEMAP_V2_plat_CE
+    400002: BASEMAP_V2_plat_NE
+    400004: BASEMAP_V2_plat_NW
+    400006: BASEMAP_V2_plat_SE
+    400008: BASEMAP_V2_plat_SW
+    400010: BASEMAP_V2_plat_TRI
+    400012: //RootNode
+    400014: plat_Surrounding_BASEMAP_V2
+    2100000: BASEMAP_V2_plat_CEMat
+    2100002: BASEMAP_V2_plat_NEMat
+    2100004: BASEMAP_V2_plat_NWMat
+    2100006: BASEMAP_V2_plat_SEMat
+    2100008: BASEMAP_V2_plat_SWMat
+    2100010: BASEMAP_V2_plat_TRIMat
+    2100012: plat_Surrounding_BASEMAP_V2Mat
+    2300000: BASEMAP_V2_plat_CE
+    2300002: BASEMAP_V2_plat_NE
+    2300004: BASEMAP_V2_plat_NW
+    2300006: BASEMAP_V2_plat_SE
+    2300008: BASEMAP_V2_plat_SW
+    2300010: BASEMAP_V2_plat_TRI
+    2300012: plat_Surrounding_BASEMAP_V2
+    3300000: BASEMAP_V2_plat_CE
+    3300002: BASEMAP_V2_plat_NE
+    3300004: BASEMAP_V2_plat_NW
+    3300006: BASEMAP_V2_plat_SE
+    3300008: BASEMAP_V2_plat_SW
+    3300010: BASEMAP_V2_plat_TRI
+    3300012: plat_Surrounding_BASEMAP_V2
+    4300000: BASEMAP_V2_plat_CE
+    4300002: BASEMAP_V2_plat_NE
+    4300004: BASEMAP_V2_plat_NW
+    4300006: BASEMAP_V2_plat_SE
+    4300008: BASEMAP_V2_plat_SW
+    4300010: BASEMAP_V2_plat_TRI
+    4300012: plat_Surrounding_BASEMAP_V2
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

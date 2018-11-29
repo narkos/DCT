@@ -1,0 +1,137 @@
+fileFormatVersion: 2
+guid: aaf9c372509bf43429229f5d98bc43ef
+timeCreated: 1529425719
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BASEMAP_V2_RIMS_rim_CE
+    100002: BASEMAP_V2_RIMS_rim_NE1
+    100004: BASEMAP_V2_RIMS_rim_NE2
+    100006: BASEMAP_V2_RIMS_rim_NW
+    100008: BASEMAP_V2_RIMS_rim_SE
+    100010: BASEMAP_V2_RIMS_rim_SW
+    100012: BASEMAP_V2_RIMS_rim_TRI
+    100014: //RootNode
+    100016: rim_SURR_BASEMAP_V2_RIMS
+    400000: BASEMAP_V2_RIMS_rim_CE
+    400002: BASEMAP_V2_RIMS_rim_NE1
+    400004: BASEMAP_V2_RIMS_rim_NE2
+    400006: BASEMAP_V2_RIMS_rim_NW
+    400008: BASEMAP_V2_RIMS_rim_SE
+    400010: BASEMAP_V2_RIMS_rim_SW
+    400012: BASEMAP_V2_RIMS_rim_TRI
+    400014: //RootNode
+    400016: rim_SURR_BASEMAP_V2_RIMS
+    2100000: BASEMAP_V2_RIMS_rim_CEMat
+    2100002: BASEMAP_V2_RIMS_rim_NE1Mat
+    2100004: BASEMAP_V2_RIMS_rim_NE2Mat
+    2100006: BASEMAP_V2_RIMS_rim_NWMat
+    2100008: BASEMAP_V2_RIMS_rim_SEMat
+    2100010: BASEMAP_V2_RIMS_rim_SWMat
+    2100012: BASEMAP_V2_RIMS_rim_TRIMat
+    2100014: rim_SURR_BASEMAP_V2_RIMSMat
+    2300000: BASEMAP_V2_RIMS_rim_CE
+    2300002: BASEMAP_V2_RIMS_rim_NE1
+    2300004: BASEMAP_V2_RIMS_rim_NE2
+    2300006: BASEMAP_V2_RIMS_rim_NW
+    2300008: BASEMAP_V2_RIMS_rim_SE
+    2300010: BASEMAP_V2_RIMS_rim_SW
+    2300012: BASEMAP_V2_RIMS_rim_TRI
+    2300014: rim_SURR_BASEMAP_V2_RIMS
+    3300000: BASEMAP_V2_RIMS_rim_CE
+    3300002: BASEMAP_V2_RIMS_rim_NE1
+    3300004: BASEMAP_V2_RIMS_rim_NE2
+    3300006: BASEMAP_V2_RIMS_rim_NW
+    3300008: BASEMAP_V2_RIMS_rim_SE
+    3300010: BASEMAP_V2_RIMS_rim_SW
+    3300012: BASEMAP_V2_RIMS_rim_TRI
+    3300014: rim_SURR_BASEMAP_V2_RIMS
+    4300000: BASEMAP_V2_RIMS_rim_CE
+    4300002: BASEMAP_V2_RIMS_rim_NE1
+    4300004: BASEMAP_V2_RIMS_rim_NE2
+    4300006: BASEMAP_V2_RIMS_rim_NW
+    4300008: BASEMAP_V2_RIMS_rim_SE
+    4300010: BASEMAP_V2_RIMS_rim_SW
+    4300012: BASEMAP_V2_RIMS_rim_TRI
+    4300014: rim_SURR_BASEMAP_V2_RIMS
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
