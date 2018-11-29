@@ -71,7 +71,6 @@ public class CameraManager : MonoBehaviour
 
     public void SetBirdsEyeTarget(Collider collider = null)
     {
-        print("Triggered " + collider);
         if (collider != null)
         {
             GetWorldPosition(collider);

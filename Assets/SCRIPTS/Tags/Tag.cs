@@ -22,9 +22,4 @@ public class Tag : MonoBehaviour
             tagController.TriggerTag(uid);
         }
     }
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }

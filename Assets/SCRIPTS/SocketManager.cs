@@ -68,9 +68,9 @@ public class SocketManager : MonoBehaviour
         print("INIT" + gameManager);
         if (connected || isConnecting)
         {
-            if(connectRoutine != null)
+            if (connectRoutine != null)
             {
-            StopCoroutine(connectRoutine);
+                StopCoroutine(connectRoutine);
             }
             connectRoutine = null;
             socket.Disconnect();
@@ -169,7 +169,8 @@ public class SocketManager : MonoBehaviour
             gameManager.EndTrip();
         });
 
-        socket.On("logout", () => {
+        socket.On("logout", () =>
+        {
             print("#logout");
             gameManager.Logout();
         });
@@ -235,39 +236,4 @@ public class SocketManager : MonoBehaviour
             print("[Tag] Successfully stopped charging simulator");
         }
     }
-    // void Update () {
-    //     if(Input.GetKeyDown(KeyCode.Space)) {
-    //         StartCoroutine(SendBatteryStatus());
-    //     }
-    //     if(Input.GetKeyDown(KeyCode.Return)) {
-    //         BatteryInfo data = new BatteryInfo();
-    //         data.currentCharge = "0.2";
-    //         data.isCharging = false;
-    //         string json = JsonUtility.ToJson(data);
-
-    //         socket.Emit("batteryInfo", json);
-    //     }
-    // }
-
-    // IEnumerator SendBatteryStatus() {
-    //     BatteryInfo data = new BatteryInfo();
-    //     data.currentCharge = "0.2";
-    //     data.isCharging = false;
-
-    //     string json = JsonUtility.ToJson(data);
-
-    //     print(json);
-
-    //     UnityWebRequest www = UnityWebRequest.Post("http://localhost:3000/battery", json);
-    //     yield return www.SendWebRequest();
-
-    //     if(www.isNetworkError || www.isHttpError)
-    // 	{
-    // 		print(www.error);
-    // 	}
-    // 	else
-    // 	{
-    // 		print("Successfully sent battery status: ");
-    // 	}
-    // }
 }

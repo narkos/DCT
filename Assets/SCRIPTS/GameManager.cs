@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : Singleton<GameManager>
 {
-    private enum SocketEventType {None, Init, Start, Stop, Logout};
+    private enum SocketEventType { None, Init, Start, Stop, Logout };
     private SocketEventType socketEvent = SocketEventType.None;
     private Camera cam;
     private ChargingStationController currentChargingStation;
@@ -79,41 +79,36 @@ public class GameManager : Singleton<GameManager>
 
     void LateUpdate()
     {
-        // if (queuedSceneChange >= 0)
-        // {
-        //     SwitchScene(queuedSceneChange);
-        //     queuedSceneChange = -1;
-        // }
         switch (socketEvent)
         {
             case SocketEventType.None:
-            {
-                break;
-            }
+                {
+                    break;
+                }
             case SocketEventType.Init:
-            {
-                HandleInitiateTrip();
-                break;
-            }
+                {
+                    HandleInitiateTrip();
+                    break;
+                }
             case SocketEventType.Start:
-            {
-                HandleStartTrip();
-                break;
-            }
+                {
+                    HandleStartTrip();
+                    break;
+                }
             case SocketEventType.Stop:
-            {
-                HandleEndTrip();
-                break;
-            }
+                {
+                    HandleEndTrip();
+                    break;
+                }
             case SocketEventType.Logout:
-            {
-                HandleLogout();
-                break;
-            }
+                {
+                    HandleLogout();
+                    break;
+                }
             default:
-            {
-                break;
-            }
+                {
+                    break;
+                }
         }
         socketEvent = SocketEventType.None;
     }
@@ -243,7 +238,7 @@ public class GameManager : Singleton<GameManager>
         FadeToScene(sceneIndex);
     }
 
-    public void GoToStartScreen ()
+    public void GoToStartScreen()
     {
         SwitchScene(0);
     }

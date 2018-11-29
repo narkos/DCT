@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class GUIController : MonoBehaviour {
+public class GUIController : MonoBehaviour
+{
     public Image socketStatusImage;
     public Color statusColorConnected = new Color32(15, 195, 115, 255);
     public Color statusColorDisconnected = new Color32(255, 50, 50, 255);
@@ -16,15 +17,11 @@ public class GUIController : MonoBehaviour {
 
     public RectTransform menuPanel;
     private bool initialized = false;
-	// Use this for initialization
-	void Start () {
-
-	}
 
     public void Init()
     {
         SetSocketState(false);
-        if (socketOptionsPanel !=  null)
+        if (socketOptionsPanel != null)
         {
             socketOptionsPanel.gameObject.SetActive(false);
         }
@@ -34,7 +31,7 @@ public class GUIController : MonoBehaviour {
 
     public void SetSocketState(bool connected)
     {
-        if(socketStatusImage != null)
+        if (socketStatusImage != null)
         {
             socketStatusImage.color = connected ? statusColorConnected : statusColorDisconnected;
         }
@@ -75,10 +72,10 @@ public class GUIController : MonoBehaviour {
 
     public void ToggleSocketOptions()
     {
-        if(socketOptionsPanel != null)
+        if (socketOptionsPanel != null)
         {
             socketOptionsPanel.gameObject.SetActive(!socketOptionsPanel.gameObject.activeSelf);
-            if(socketOptionsPanel.gameObject.activeSelf)
+            if (socketOptionsPanel.gameObject.activeSelf)
             {
                 activePanel = socketOptionsPanel;
             }
@@ -93,7 +90,7 @@ public class GUIController : MonoBehaviour {
     {
         if (simUrlInputField != null)
         {
-            if(simUrlInputField.text.Length > 0 && gameManager != null)
+            if (simUrlInputField.text.Length > 0 && gameManager != null)
             {
                 gameManager.SetSimulatorURL(simUrlInputField.text);
                 print(simUrlInputField.text);
